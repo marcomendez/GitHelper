@@ -1,0 +1,43 @@
+git clean -xfd  ---> limpia todo lo que no esta guardado
+
+git reset HEAD info.txt ----> Un archivo que esta en unmodified , se puede hacer de un file a untracked.
+
+xfd
+X todo
+f forzar
+d delete
+
+
+
+
+Estados
+-untracked
+-modified
+-others
+-staged
+-Unmodified
+
+
+create a new branch
+git checkout -b develop
+
+NO mayusculas
+feature/123-create-algo
+
+****************Git stash save **********
+
+
+*********** ver el log graph **************
+git log --graph --pretty=oneline
+
+**********  update branch with other branch ***********
+git rebase mastergit
+
+**************** LFS *******************************
+
+
+
+
+
+desvincular archivos tranked
+git rm --cached testdll.dll
